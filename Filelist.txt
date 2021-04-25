@@ -1,0 +1,32 @@
+
+[modify]
+ custom\common\hal\nvram\nvram_gen_trc.h
+ custom\common\hal\nvram\nvram_lid_statistics.h
+ custom\system\GXQ03D_M2M_11C_BB\scat_config\FeatureBased\ObjListGen\object.list.backup
+ make\GXQ03D_M2M_11C_GPRS.mak
+ make\Verno_GXQ03D_M2M_11C.bld
+ mtk_lib\MT6261\S00\gprs\abm.lib
+ mtk_lib\MT6261\S00\gprs\abm_custom.lib
+ mtk_lib\MT6261\S00\gprs\gfx_core16.lib
+ mtk_lib\MT6261\S00\gprs\mt5931.lib
+ tools\GLBOptionSwtichRef\GXQ03D_M2M_11C_GPRS.mak
+ tools\NVRAMStatistic\debug\nvram_auto_gen.map
+ tst\database_classb\MT6261\S00\gprs\MCDDLL.dll
+
+[add]
+ MAUI.11C.W14.18.IOT.MP.V1.F12.txt
+ custom\system\GXQ03D_M2M_11C_BB\custom_FeatureConfig.h.beforeAutoAdj1501223019.440
+ custom\system\GXQ03D_M2M_11C_BB\custom_FeatureConfig.h.beforeAutoAdj1501224856.400
+ custom\system\GXQ03D_M2M_11C_BB\custom_MemoryDevice.h.beforeAutoAdj1501224856.647
+ tst\database_classb\MT6261\S00\gprs\BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F12
+ tst\database_classb\MT6261\S00\gprs\_BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F12.check
+ tst\database_classb\_BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F12.check
+
+[remove]
+ MAUI.11C.W14.18.IOT.MP.V1.F11.txt
+ custom\system\GXQ03D_M2M_11C_BB\custom_FeatureConfig.h.beforeAutoAdj1498538182.91
+ custom\system\GXQ03D_M2M_11C_BB\custom_FeatureConfig.h.beforeAutoAdj1498540261.344
+ custom\system\GXQ03D_M2M_11C_BB\custom_MemoryDevice.h.beforeAutoAdj1498540261.891
+ tst\database_classb\MT6261\S00\gprs\BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F11
+ tst\database_classb\MT6261\S00\gprs\_BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F11.check
+ tst\database_classb\_BPLGUInfoCustomApp_MT6261_S00_MAUI_11C_W14_18_IOT_MP_V1_F11.check

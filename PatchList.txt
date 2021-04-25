@@ -1,0 +1,21 @@
+#==============================================================================
+# CR list from customer request
+# ------------------------
+# The release maybe include
+#   1. The patch request from customer
+#   2. The dependency patch of item 1
+#==============================================================================
+Patch Type:  Customer Request
+CR ID:       MAUI_03558314
+Severity:    N/A
+eService ID: MAUI_03558314
+Description: 
+  [Huawei]【MT2502】【WD100  华为K1】【http】数据连接通路显示红叉，要10多分钟后才消失--modem问题咨询
+  T3311 timer expires in GMM_REG_SUSPEND_STATE  & there is no such handling in gmm_t3311_handler .So it doesn't trigger RAU.
+  So at the later part when LAU finish .It expect to trigger RAU But it doesn't trigger RAU .
+Associated Files: 
+  FILE_DEP_CR_LIST.txt
+  mtk_lib\MT6261\S00\gprs\mm_classb2.lib
+
+
+
